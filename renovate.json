@@ -11,13 +11,13 @@
       "branchConcurrentLimit": 5
     },
     {
-      "matchPackageNames": ["nodemon"],
+      "matchPackageNames": ["chalk"],
       "prHourlyLimit": 5,
       "prConcurrentLimit": 5,
       "branchConcurrentLimit": 5
     },
     {
-      "matchPackageNames": ["nodemon"],
+      "matchPackageNames": ["xmldoc"],
       "prHourlyLimit": 1,
       "prConcurrentLimit": 1
     },
