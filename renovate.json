@@ -1,0 +1,29 @@
+{
+  "packageRules": [
+    {
+    "matchPackageNames": ["nodemon", "chalk", "xmldoc"],
+    "groupName": "multiple limits"
+    },
+    {
+      "matchPackageNames": ["nodemon"],
+      "prHourlyLimit": 5,
+      "prConcurrentLimit": 5,
+      "branchConcurrentLimit": 5
+    },
+    {
+      "matchPackageNames": ["nodemon"],
+      "prHourlyLimit": 5,
+      "prConcurrentLimit": 5,
+      "branchConcurrentLimit": 5
+    },
+    {
+      "matchPackageNames": ["nodemon"],
+      "prHourlyLimit": 1,
+      "prConcurrentLimit": 1
+    },
+    {
+      "matchPacakgeNames": ["react"],
+      "prPriority": 10
+    }
+  ]
+}
